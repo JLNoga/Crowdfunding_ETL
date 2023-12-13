@@ -25,7 +25,7 @@ CREATE TABLE "contacts" (
     "contact_id" int   NOT NULL,
     "first_name" Varchar(30)   NOT NULL,
     "last_name" Varchar(30)   NOT NULL,
-    "email" Varchar(30)   NOT NULL,
+    "email" Varchar(50)   NOT NULL,
     CONSTRAINT "pk_contacts" PRIMARY KEY (
         "contact_id"
      )
