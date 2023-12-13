@@ -14,6 +14,7 @@ CREATE TABLE "campaign" (
     "country" Varchar(2)   NOT NULL,
     "currency" Varchar(3)   NOT NULL,
     "launched_date" Varchar(10)   NOT NULL,
+    "end_date" Varchar(20)   NOT NULL,
     "category_id" Varchar(5)   NOT NULL,
     "scat_ids" Varchar(10)   NOT NULL,
     CONSTRAINT "pk_campaign" PRIMARY KEY (
