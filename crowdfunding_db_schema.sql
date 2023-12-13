@@ -32,7 +32,7 @@ CREATE TABLE "contacts" (
 );
 
 CREATE TABLE "category" (
-    "category_id" Varchar(5)   NOT NULL,
+    "category_id" Varchar(10)   NOT NULL,
     "category" Varchar(30)   NOT NULL,
     CONSTRAINT "pk_category" PRIMARY KEY (
         "category_id"
@@ -40,7 +40,7 @@ CREATE TABLE "category" (
 );
 
 CREATE TABLE "subcategory" (
-    "scat_ids" Varchar(5)   NOT NULL,
+    "scat_ids" Varchar(10)   NOT NULL,
     "subcategory" Varchar(30)   NOT NULL,
     CONSTRAINT "pk_subcategory" PRIMARY KEY (
         "scat_ids"
